@@ -650,8 +650,6 @@ body.on{
     background-size: 230px;
 }
 /* ******************************************* */
-
-
 .footer{
     width: 100%;
     background:#292929;
@@ -690,6 +688,7 @@ body.on{
     font-weight: bold;
     color:#dddddd;
 }
+/* ******************************************* */
 .sns{
     text-align: center;
     padding: 25px 0 20px;

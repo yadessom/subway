@@ -54,6 +54,7 @@ $(function(){
       $('.blackout').click(function(){
         $('.m_menu_wrap').animate({'left':'-100%'},300);
         $('.blackout').stop().fadeOut(300);
+        $('body').removeClass('on');
       });
 
       // ************************************************************

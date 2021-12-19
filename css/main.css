@@ -527,8 +527,60 @@ body.on{
     text-indent: -99999px;
     margin-top: -45px;
 }
-
-
+/* ******************************************* */
+.notice{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+}
+.notice h2{
+    font-size: 20px;
+    position: relative;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.notice h2::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background:url("../images/bul_tit.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.notice h2::after{
+    content: '';
+    width: 25px;
+    height: 25px;
+    background:url("../images/plus_icon.png")no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.notice_inner{
+    width: 90%;
+    margin: 0 auto;
+}
+.notice_inner li{
+    border-bottom: 1px solid #ececec;
+}
+.notice_inner li:last-child{
+    border: none;
+}
+.notice_inner li a{
+    padding: 15px 0 15px 0;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    color:#333;
+    box-sizing: border-box;
+}
 
 /* ******************************************* */
 .sec_last{
@@ -568,16 +620,32 @@ body.on{
     background:#fff;
     position: relative;
 }
-.sec_last_inner ul li a:first-child::before{
+.sec_last_inner ul li a::before{
     content: '';
-    width: 21px;
-    height: 21px;
+    width: 50px;
+    height: 50px;
     background:url("../images/icon_quickmenu.png")no-repeat;
-    background-position: 0 0;
+    background-position: -2px -5px;
+    background-size: 230px;
     position: absolute;
-    left: 20%;
+    left: 10%;
     top: 50%;
     transform: translateY(-50%);
+}
+.sec_last_inner ul li:nth-child(2) a::before{
+    background:url("../images/icon_quickmenu.png")no-repeat;
+    background-position: -118px -2px;
+    background-size: 230px;
+}
+.sec_last_inner ul li:nth-child(3) a::before{
+    background:url("../images/icon_quickmenu.png")no-repeat;
+    background-position: -60px -5px;
+    background-size: 230px;
+}
+.sec_last_inner ul li:last-child a::before{
+    background:url("../images/icon_quickmenu.png")no-repeat;
+    background-position: -175px -2px;
+    background-size: 230px;
 }
 /* ******************************************* */
 

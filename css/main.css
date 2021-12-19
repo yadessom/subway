@@ -610,7 +610,7 @@ body.on{
 }
 .sec_last_inner ul li a{
     display: block;
-    text-align: center;
+    text-align: right;
     font-size: 15px;
     font-weight: bold;
     color:#333;
@@ -619,7 +619,6 @@ body.on{
     height: 100%;
     background:#fff;
     position: relative;
-    text-indent: 50px;
 }
 .sec_last_inner ul li a::before{
     content: '';
